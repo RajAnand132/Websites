@@ -1,0 +1,361 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+    overflow-x: hidden;
+    color: white;
+}
+header{
+	background-image: url('../images/main.jpg');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.clearfix:after{
+	content: "."
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+.row{
+	max-width: 1180px;
+	margin-left:20px ;
+}
+.logo{
+	margin-bottom: 20px;
+    border-radius: 200px;
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+}
+.main-nav{
+	     float:right;
+	     margin-top: 20px;
+	     transform: translateX(60%);
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 50px;
+	
+}
+.main-nav li a{
+	padding: 5px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+}
+.main-nav li a:hover{
+        border-bottom:  2px solid #bf55ec;
+
+}
+.main-containt-header{
+      width: 1180px;
+      position: absolute;
+      top: 50% ;
+      left: 50%;
+      transform: translate(-63%,-50%);
+}
+
+span{
+	font-size: 80px;
+	margin-top: -20px;
+}
+
+.x{
+	margin-left: 320px;
+	margin-top: 10px;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.btn{
+	
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s ,border 0.2s,color0.2;
+	transform: translate(30%,200%);
+
+}
+.btn-a{
+	background-color: transparent;
+	color: green;
+	margin-right: 20px;
+    border: 2px solid #fff;
+    margin-right: 50px;
+}
+.btn-a:hover{
+	background-color: #fff;
+}
+.btn-b{
+	background-color: transparent;
+	color: #fff;
+	margin-right: 20px;
+	border:2px solid #bf55ec;
+}
+.btn-b:hover{
+	background-color: #bf55ec;
+}
+.color-change{
+	animation: colorchange 1s infinite;	
+}
+@keyframes colorchange{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: purple;}
+	75%{color: yellow ;}
+	100%{color:red;}
+}
+.w{
+	animation: aaa 5s infinite;
+}
+@keyframes aaa{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: purple;}
+	75%{color: orange;}
+	100%{color:red;}
+}
+.x{
+	animation: aaaa 5s infinite;
+}
+@keyframes aaaa{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: green;}
+	75%{color: yellow ;}
+	100%{color:red;}
+}
+/*///////// Responsive View\\\\\\\\\\*/
+/*@media only  screen and (max-width: 1500px){
+	.w{
+		padding: 0 80px;
+		font-size: 100%;
+	}
+	.color-change{
+		padding: 0 100px;
+		font-size: 80%px;
+	}
+	.x{
+		padding: 0 70px;
+		font-size: 60%px;
+	}
+	.btn-a{
+		transform: translate(50%,150%); 
+	}
+	.btn-b{
+		transform: translate(50%,150%);
+	}
+}
+@media only  screen and (max-width: 1180px){
+	
+	.w{
+		padding: 0 190px;
+		font-size: 100%;
+	}
+	.color-change{
+		padding: 0 180px;
+		font-size: 80%px;
+	}
+	.x{
+		padding: 0 100px;
+		font-size: 60%px;
+	}
+	.btn-a{
+		transform: translate(80%,180%); 
+	}
+	.btn-b{
+		transform: translate(80%,180%);
+	}
+}*/
+/*------------Validation CSS -------*/
+body{
+background-color:black;
+}
+#Layer1 { 
+position:absolute;
+line-height:30px;
+width:1147px;
+height:800px;
+left: 70px;
+top: 80px;
+transform: translateX(4%);
+}
+#Layer2 {
+position:absolute;
+width:1040px;
+height:49px;
+left: -320px;
+top: 9px;
+transform: translateX(5.7%);
+text-decoration-color: red;
+}
+.style1 {
+color: #fff;
+font-weight: bold;
+background-color:red;	
+
+}
+.style3 {
+color: blue;
+font-weight: bold;
+background-color:#E0D2F0;
+}
+
+.col-1{
+	
+	 height: 400px;
+    background: linear-gradient(to left, black 15%, blue 100%)
+}
+.col-2{
+	    height: 400px;
+    background: linear-gradient(to left, blue 20%, black 80%)
+}
+.row-2{
+	 height: 400px;
+    background: linear-gradient(to top, black 25%, white 250%)
+	
+}
+/*-----------------Introbody CSS -----------*/
+
+.item{
+width: 100%;
+background-image: url(../images/tb.jpg);
+}
+.imgsettle1{
+	 height:300px;
+	 width:500px;
+	  background-image: url(../images/Black.jpg);
+	}
+.imgsettle2{
+	 height:220px;
+	 width:1200px;
+	 background-image: url(../images/Latte.jpg) ;
+}
+.imgsettle3{
+	 height:255px;
+	 width:1500px;
+	 background-image: url(../images/Cappuccino.jpg) ;
+}
+.imgsettle4{
+	 height:320px;
+	 width:1500px;
+	 background-image: url(../images/Americano.jpg) ;
+}
+.imgsettle5{
+	 height:300px;
+	 width:1500px;
+	 background-image: url(../images/Doppio.jpg) ;
+}
+.imgsettle6{
+	 height:300px;
+	 width:1500px;
+	 background-image: url(../images/Espresso.jpg) ;
+}
+.imgsettle7{
+	 height:240px;
+	 width:1200px;
+	 background-image: url(../images/Cortado.jpg) ;
+}
+.imgsettle8{
+	 height:240px;
+	 width:1200px;
+	 background-image: url(../images/TheEyes.jpg) ;
+}
+.imgsettle9{
+	 height:240px;
+	 width:1200px;
+	 background-image: url(../images/Redeye.jpg) ;
+}
+.imgsettle10{
+	 height:240px;
+	 width:1200px;
+	 background-image: url(../images/Galao.jpg) ;
+}
+.imgsettle11{
+	 height:240px;
+	 width:1200px;
+	 background-image: url(../images/lungo.jpg) ;
+}
+.imgsettle12{
+	 height:240px;
+	 width:1200px;
+	 background-image: url(../images/Mocha.jpg) ;
+}
+.imgsettle13{
+	 height:300px;
+	 width:1200px;
+	 background-image: url(../images/Ristretto.jpg) ;
+}
+.imgsettle14{
+	 height:300px;
+	 width:1200px;
+	 background-image: url(../images/FlatWhite.jpg) ;
+}
+.imgsettle15{
+	 height:330px;
+	 width:1200px;
+	 background-image: url(../images/Affogato.jpg) ;
+}
+.imgsettle16{
+	 height:330px;
+	 width:1200px;
+	 background-image: url(../images/CafeauLait.jpg) ;
+}
+.imgsettle17{
+	 height:270px;
+	 width:1200px;
+	 background-image: url(../images/Irish.jpg) ;
+}
+.imgsettle18{
+	 height:240px;
+	 width:1200px;
+	 background-image: url(../images/IcedCofe.jpg) ;
+}
+.imgsettle19{
+	 height:324px;
+	 width:1250px;
+	 background-image: url(../images/icedespresso.jpg) ;
+}
+.imgsettle20{
+	 height:240px;
+	 width:1200px;
+	 background-image: url(../images/coldbrew.jpg) ;
+}
+.imgsettle21{
+	 height:330px;
+	 width:1600px;
+	 background-image: url(../images/Frappuccino.jpg) ;
+}
+.imgsettle22{
+	 height:200px;
+	 width:1200px;
+	 background-image: url(../images/Nitro.jpg) ;
+}
+.imgsettle23{
+	 height:300px;
+	 width:1000px;
+	 background-image: url(../images/Mazagran.jpg) ;
+}
+.coffee{
+	animation: colorchange 1s infinite;	
+}
+@keyframes colorchange{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: orange;}
+	75%{color: black ;}
+	100%{color:green;}
+}
